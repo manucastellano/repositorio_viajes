@@ -47,19 +47,19 @@
 
        <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html">Sobre nosotros</a></li>
-          <li><a class="nav-link scrollto" href="index.html">Servicios</a></li>
-          <li><a class="nav-link scrollto" href="index.html">Recorrido</a></li>
-          <li><a class="nav-link scrollto" href="index.html">Equipo</a></li>
-          <li class="dropdown"><a href="grupales.html"><span>Salidas grupales</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">Sobre nosotros</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Servicios</a></li>
+          <li><a class="nav-link scrollto" href="index.html#portfolio">Recorrido</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team">Equipo</a></li>
+          <li class="dropdown"><a class="active" href="grupales.html"><span>Salidas grupales</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Argentina</a></li>
               <li><a href="#">Exterior</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="index.html">Contacto</a></li>
-          <li><a class="getstarted scrollto" href="index.html">Empecemos la aventura!</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+          <li><a class="getstarted scrollto" href="#contact">Empecemos la aventura!</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -74,10 +74,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2>SALIDAS GRUPALES</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li>Salidas grupales</li>
           </ol>
         </div>
 
@@ -87,10 +87,75 @@
     <section class="inner-page">
       <div class="container">
         <p>
-          Example inner page template
+          ACA COLOCAR IMAGENES Y LINKS A PAQUETES DE POP TOURS
         </p>
       </div>
     </section>
+
+  </main><!-- End #main -->
+<section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <p>Siempre desde schwartz viajes queremos darte el mejor servicio posible. Es por eso que ante cualquier duda , no esperes un segundo para contactarnos. </p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Direccion</h3>
+              <address>Monsenor larumbe 3151, Martinez.<br> San Isidro - Buenos Aires</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="bi bi-phone"></i>
+              <h3>Telefono celular</h3>
+              <p><a href="tel:+155895548855">+54 9 11 4434 0161</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">bettina@schwartzviajes.com.ar</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Su nombre" data-rule="minlen:4" data-msg="Por favor ingrese minimo 4 letras">
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Su email" data-rule="email" data-msg="Por favor ingrese un email valido">
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Cargando</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Tu mensaje fue enviado correctamente. Muchas gracias!</div>
+            </div>
+            <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -102,12 +167,12 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Groovin</h3>
+              <h3>Bettina Schwartz</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Monsenor Larumbe 3151 <br>
+                Martinez 1640. Buenos Aires<br><br>
+                <strong>Celular:</strong> +54 9 11 4434 0161<br>
+                <strong>Email:</strong> bettina@schwartzviajes.com.ar<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -120,32 +185,32 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Links directos</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Sobre nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Recorrido</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contacto</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Nuestros servicios</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Viajes grupales</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cotizaciones inmediatas</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Ofertas y promociones</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Informacion y Asesoria</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Vacunacion COVID-19</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Nuestro Newsletter</h4>
+            <p>Te gustaría recibir información periodicamente sobre ofertas y novedades?!</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="Suscribite">
             </form>
 
           </div>
@@ -156,7 +221,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Groovin</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>SchwartzViajes</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
